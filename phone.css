@@ -1,0 +1,55 @@
+/* NAVIGATION */
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 5px;
+}
+
+/* CODERG */
+#coderg{
+    height: 250px;
+    padding: 10px 43px; 
+}
+#coderg::before{
+    height: 350px;
+}
+#coderg p{
+    font-size: 1rem;
+}
+
+/* PROJECTS */
+#projects{
+    flex-direction: column;
+}
+.pro-details{
+    font-size: small;
+}
+/* ABOUT */
+
+#about .about-cantainer{
+    height: 50rem;
+}
+
+#about .about-cantainer {
+    font-size: smaller;
+}
+
+/* CONTACT */
+
+.small{
+    font-size: 1.2rem;
+}
+
+
+/* FOOTER */
+
+/* UTILITY CLASS */
+
+.h-primary{
+    font-size: 1.5rem;
+}
+
