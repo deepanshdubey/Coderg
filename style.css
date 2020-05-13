@@ -240,7 +240,9 @@ footer{
     display: inline-flex;
     flex-direction: column;
     float: right;
+    margin-right: .5rem;
     position: relative;
+    
 
 }
 /* UTILITY CLASS */
