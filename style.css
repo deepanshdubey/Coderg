@@ -236,6 +236,13 @@ footer{
     font-size: small;
     padding-left: .5rem;
 }
+#time{
+    display: inline-flex;
+    flex-direction: column;
+    float: right;
+    position: relative;
+
+}
 /* UTILITY CLASS */
 
 .h-primary{
