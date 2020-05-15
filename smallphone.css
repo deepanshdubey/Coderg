@@ -7,6 +7,7 @@
 #navbar ul li a{
     font-size: .75rem;
     padding: 0px 4px;
+    
 }
 
 /* CODERG */
@@ -52,8 +53,9 @@
 
 
 /* FOOTER */
-#time{
-    display: none;
+
+footer p{
+    font-size: .5rem;
 }
 
 

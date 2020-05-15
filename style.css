@@ -29,6 +29,7 @@
     height: 2.5rem;
     width: 99%;
     z-index: -1;
+    padding-bottom: 5px;
 }
 
 /* NAVIGATION BAR: LOGO AND IMAGE */
@@ -53,7 +54,8 @@
 #navbar ul li a{
     display: block;
     padding: 2px 20px;
-    border: 1.5px solid white;
+    padding-bottom: 2.5px;
+    border: 1.5px solid whitesmoke;
     color: whitesmoke;
     border-radius: 100px;
     text-decoration: none;
@@ -101,6 +103,7 @@
     font-family:  'Open Sans', sans-serif;
 }
 .projects-container h1{
+    margin-top: 1rem;
     color: black;
     font-weight: bolder;
 }
@@ -179,10 +182,24 @@
     color: white;
 }
 .Java p{
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    /* justify-content: center; */
     /* margin-top: 7.5rem; */
-    font-family:   'Open Sans', sans-serif; 
+    font-family:   'Open Sans', sans-serif;
+}
+.pro{
+    padding: 2px;
+    text-decoration: none;
+    color:  rgb(181, 146, 238);
+}
+.pro:hover{
+    font-weight: bold;
+    background-color: rgb(216, 205, 235);
+    color: rgb(68, 0, 177);
+    border-radius: 15px;
+    padding: 2px 5px;
+    transition-property: all;
+    transition-duration: 1s; 
 }
 
 
@@ -190,21 +207,22 @@
 
 .about-container{
     display: flex;
-    height: 20rem;
-    width: 50%;
+    height: 25rem;
+    width: 60%;
     border: 2px solid rgb(159, 111, 235);
     border-radius: 40px;
     margin: auto;
     margin-top: 10rem;
     margin-bottom: 10rem;
     padding: 20px;
-    align-items: center;
-    justify-content: center;
 }
 .about-container p{
     color: whitesmoke;
     font-family: 'Baloo Bhaina 2', cursive;
-    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    
 }
 
 /* CONTACT US */
@@ -242,7 +260,13 @@ footer{
     float: right;
     margin-right: .5rem;
     position: relative;
-    
+}
+#updateinfo{
+    display: inline-flex;
+    flex-direction: column;
+    float: right;
+    margin-right: .5rem;
+    position: relative;
 
 }
 /* UTILITY CLASS */

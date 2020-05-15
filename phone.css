@@ -16,6 +16,7 @@
 }
 #coderg::before{
     height: 350px;
+    padding-bottom: 9px;
 }
 #coderg p{
     font-size: 1rem;
@@ -46,10 +47,12 @@
 
 
 /* FOOTER */
-#time{
-    display: none;
-}
 
+
+
+footer p{
+    font-size: .70rem;
+}
 /* UTILITY CLASS */
 
 .h-primary{
