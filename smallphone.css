@@ -21,6 +21,11 @@
 #coderg p{
     font-size: 1rem;
 }
+#horl{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
 
 /* PROJECTS */
 #projects{
@@ -49,7 +54,9 @@
     font-size: .8rem;
 }
     
-
+#version{
+    font-size: .50rem;
+}
 
 
 /* FOOTER */

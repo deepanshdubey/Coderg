@@ -47,7 +47,7 @@
     padding: 2px;
     margin: 10px;
     list-style: none;
-    font-size: 1rem;  
+    font-size: 1.1rem;  
     font-family:  'Open Sans', sans-serif;
     /* font-family: 'Baloo Bhaina 2', cursive;  */
 }
@@ -93,6 +93,10 @@
     opacity: .95;
     top:0px;
     left: 0px;
+}
+
+#horl{
+    display: none;
 }
 
 /* TEXT CONTENT  */
@@ -246,6 +250,12 @@
     color: whitesmoke;
     font-family: 'Baloo Bhaina 2', cursive;
 }
+
+#version span{
+    color:rgb(68, 0, 177); 
+    font-size: .8rem;
+    padding-left: .5rem;
+}
 /* FOOTER */
 footer{
     background-color: black;
@@ -273,6 +283,7 @@ footer{
 
 .h-primary{
     font-size: 2rem;
+    /* font-weight: bolder; */
     color: whitesmoke;
     padding: 20px;
     font-family:  'Open Sans', sans-serif;
