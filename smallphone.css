@@ -6,7 +6,7 @@
 
 #navbar ul li a{
     font-size: .75rem;
-    padding: 0px 4px;
+    padding: 0px 3px;
     
 }
 
@@ -15,7 +15,10 @@
     margin: auto;
     justify-content: center;
     padding: 2px;
-    border: 1px solid rgb(159, 111, 235);
+    border: 2px solid rgb(159, 111, 235);
+    font-weight: normal;
+    font-size: unset;
+}
 }
 
 /* CODERG */

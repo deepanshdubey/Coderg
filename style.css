@@ -74,14 +74,17 @@
 
 #admin{
     display: block;
-    margin-left: auto;
+    margin: 10px;
+    justify-content: center;
     color: black;
-    font-weight: 200;
+    font-weight: 500;
     background-color: rgb(236, 232, 232);
-    margin-inline-end: 5em;
-    padding: 5px 10px;
+    padding: 7px 20px;
     border: 2px solid rgb(159, 111, 235);
     border-radius: 15px;
+    font-family:  'Open Sans', sans-serif;
+    font-size: large;
+}
 }
 
 #admin:hover{
