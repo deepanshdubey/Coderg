@@ -6,8 +6,8 @@
 
 #navbar ul li a{
     font-size: .75rem;
-    padding: 0px 3px;
-    
+    padding: 4px 3px;
+    margin: -2px;
 }
 
 #admin{
