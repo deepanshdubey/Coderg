@@ -16,6 +16,14 @@
     justify-content: center;
     font-weight: bolder;
 }
+#admin:hover{
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+}
 /* CODERG */
 #coderg{
     height: 250px;
