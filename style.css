@@ -72,6 +72,27 @@
 
 }
 
+#admin{
+    display: block;
+    margin-left: auto;
+    color: black;
+    font-weight: 200;
+    background-color: rgb(236, 232, 232);
+    margin-inline-end: 5em;
+    padding: 5px 10px;
+    border: 2px solid rgb(159, 111, 235);
+    border-radius: 15px;
+}
+
+#admin:hover{
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
 /* CODERG SECTION */
 
 #coderg{
@@ -206,6 +227,41 @@
     transition-duration: 1s; 
 }
 
+/* BLOG */
+
+.name{
+    justify-content: center;
+    text-align: center;
+
+}
+
+.blog-title{
+    color: whitesmoke;
+}
+
+.blog-content{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    border: 2px solid rgb(159, 111, 235);
+    border-radius: 40px;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#writings{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1rem;
+
+}
 
 /* ABOUT */
 
