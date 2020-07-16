@@ -38,7 +38,7 @@
             <p>We are the bunch of enthusiasts who are crazy about programming and want to learn new tricks and
             picks together.</p>
 
-            <button action="" id="admin">Login</button>
+            <button onclick="disp_warn()" id="admin">Login</button>
             
     </div>
 
@@ -82,13 +82,18 @@
     </footer>
     <script>
         function currenttime()
-            {
-                time = new Date();
-                console.log(time);
-                document.getElementById('time').innerHTML = time;
-            }
+        {
+            time = new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML = time;
+        }
 
-            setInterval(currenttime, 1000);
+        setInterval(currenttime, 1000);
+
+        function disp_warn()
+        {
+            alert('Currently we are working on this functionality.')
+        }
         
     </script>
 </body>
