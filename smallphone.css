@@ -56,6 +56,13 @@
     font-size: 0.8rem;
 }
 
+/* BLOGS */
+
+.blog-box{
+    font-size: .8rem;
+    overflow: auto;
+}
+
 /* ABOUT */
 
 #about .about-cantainer{

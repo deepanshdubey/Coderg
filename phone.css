@@ -46,6 +46,14 @@
 #projects{
     flex-direction: column;
 }
+
+/* BLOGS */
+
+.blog-box{
+    font-size: 1rem;
+    overflow: auto;
+}
+
 .pro-details{
     font-size: small;
 }
