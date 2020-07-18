@@ -63,6 +63,11 @@
     overflow: auto;
 }
 
+img{
+    width: 80%;
+    height: 25%;
+}
+
 /* ABOUT */
 
 #about .about-cantainer{
